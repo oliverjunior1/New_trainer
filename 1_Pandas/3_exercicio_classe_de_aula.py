@@ -1,3 +1,5 @@
+import random
+
 import pandas as pd
 # Crie um DataFrame com dados de alunos (nome, nota, presença) e:
 # 1. 	Filtre os alunos com nota maior que 7.
@@ -12,3 +14,4 @@ alunos = pd.DataFrame({
 for x,y in zip('nome', 'nota'):
     if alunos['nota']>=7.0:
         print(alunos['nota'])
+
