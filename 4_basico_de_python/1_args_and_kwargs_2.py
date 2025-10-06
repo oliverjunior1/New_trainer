@@ -1,11 +1,9 @@
 #Do args with arithmetics operations
 
-def args_sum(*args):
-    sum =0
+def soma(*args):
+    sum = 0
     for arg in args:
         sum += arg
-    return sum
+    print(sum)
 
-x =args_sum(10,10,10,10)
-
-print(x)
+soma(10,10,10,10,10)
