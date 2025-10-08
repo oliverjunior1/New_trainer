@@ -1,18 +1,17 @@
 import pygame
 
-# inicializa o pygame
 pygame.init()
 
-# Cria a janela
-tela = pygame.display.set_mode((800,600))
-pygame.display.set_caption("Meu primeiro programa")
+tela = pygame.display.set_mode((700,700))
+pygame.display.set_caption("Meu primeiro jogo")
 
-# Loop principal
-rodando = True
-while rodando:
+running = True
+while running:
     for evento in pygame.event.get():
-        if evento.type == pygame.QUIT:
-            rodando = False
+        if evento.type==pygame.QUIT:
+            running = False
+
     tela.fill((0,0,0))
     pygame.display.update()
+
 pygame.quit()
