@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 
 ser = pd.Series()
-print("Pandas Series", ser)
+print("Pandas Series: ", ser)
 
-data =  np.array(['G', 'e', 'e', 'k', 's'])
+data = np.array(['G', 'e', 'e', 'k', 's'])
 
 ser = pd.Series(data)
-print(ser)
+print("Pandas Series:\n", ser)
