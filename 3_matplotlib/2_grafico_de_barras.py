@@ -1,8 +1,11 @@
 import matplotlib.pyplot as plt
 
-letters = ['a', 'b', 'c', 'd', 'e']
-numbers = [10,5,28,30,15]
+temp = [19, 15, 18, 22, 28, 32]
+horas = [4,5,8,10,12,15]
 
-plt.bar(letters, numbers, color='skyblue')
-plt.title("Gráfico de Barras")
+plt.plot(horas, temp)
+plt.xlabel("Temperatura em ºC")
+plt.ylabel("Horas do dia")
+plt.title("Horas do dia x Temperatura")
+
 plt.show()
