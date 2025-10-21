@@ -1,9 +1,12 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-x = [1,2,3,4,5,6]
-y = [15,25,20,14,24,31]
+x = [1,2,3,4,5]
+y = [15,10,20,25,18]
 
-z = pd.Series(x,y)
-plt.plot(x,y)
+z = pd.Series(y,x)
+
+print(z)
+plt.plot(z)
+
 plt.show()
