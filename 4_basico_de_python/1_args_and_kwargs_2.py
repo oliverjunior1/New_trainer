@@ -1,9 +1,9 @@
+import pandas as pd
 #Do args with arithmetics operations
 
-def soma(*args):
-    sum = 0
-    for arg in args:
-        sum += arg
-    print(sum)
+def sum_args(*args):
+    x=pd.Series(args)
+    return print(x.sum())
 
-soma(10,10,10,10,10)
+sum_args(500,300,-200)
+
