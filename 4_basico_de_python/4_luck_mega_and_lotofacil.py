@@ -1,21 +1,19 @@
-import random
+import random as rd
 
 def mega():
-    x = sorted(random.sample(range(1,61),6))
+    x = sorted(rd.sample(range(1,61),6))
     print(x)
-def lotofacil():
-    x = sorted(random.sample(range(1,26),15))
+def facil():
+    x = sorted(rd.sample(range(1,26),15))
     print(x)
 
+
 while True:
-    option = int(input("If you want a luck number for mega put 1, to lotofacil 2, and to exit 3: "))
+    option = int(input("Type 1 to megasena, 2 to lotofacil and 3 to exit: "))
     match option:
         case 1:
             mega()
         case 2:
-            lotofacil()
+            facil()
         case 3:
             break
-        case _:
-            print("Invalid number.")
-
