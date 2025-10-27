@@ -1,13 +1,13 @@
 def fun1(x):
-    def fun2(*args, **kwargs):
-        print("######################")
-        x(*args, *kwargs)
-        print("######################")
+    def fun2(*args):
+        print("###################")
+        x(*args)
+        print("###################")
     return fun2
 
 @fun1
-def gretings(*args):
-    for arg in args:
-        print(f"Hello {arg}")
+def greetings(name):
+    print(f"Hello {name}!")
 
-gretings("Joaquim", "Alyne", "Joao", "Mariane")
+greetings("Joaquim")
+
