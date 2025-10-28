@@ -1,8 +1,6 @@
-# Duas listas
-chaves = ['nome', 'idade', 'cidade']
-valores = ['Joaquim', 30, 'Anápolis']
+list_1 = ['Joaquim', 'Alyne', 'Pepe', 'Mary']
+list_2 = [42,39,13,4]
 
-# Transformando em dicionário
-meu_dict = dict(zip(chaves, valores))
-
-print(meu_dict)
+for x, y in zip(list_1, list_2):
+    print('name : age')
+    print(x,y)
