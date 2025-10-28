@@ -1,7 +1,4 @@
-a = ['a', 'b', 'c', 'd', 'e', 'f']
+list = ['Jesus', 'is', 'the', 'light', 'of', 'the', 'world']
 
-for i, a in enumerate(a):
-    print(f'Index {i}:{a}')
-
-
-print(list(enumerate(a)))
+for x, y in enumerate(list):
+    print(x, y)
