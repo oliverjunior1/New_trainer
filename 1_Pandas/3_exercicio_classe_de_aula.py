@@ -33,3 +33,4 @@ print(df)
 print("\n✅ Alunos com nota acima de 7:")
 print(aprovados)
 
+
