@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-x = ['python', 'java', 'c#', 'outras']
-y = [35,25,20,20]
+frutas = ['Maçã', 'Banana','Laranja', 'Uva']
+valores = [30,25,20,25]
 
-plt.bar(y, labels=x,autopct="%1.1f%%")
+plt.pie(valores, labels=frutas, autopct='%1.1f%%')
 plt.show()
