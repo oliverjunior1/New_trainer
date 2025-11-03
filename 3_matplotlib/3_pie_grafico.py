@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 
-frutas = ['Maçã', 'Banana','Laranja', 'Uva']
-valores = [30,25,20,25]
+x = ['python', 'java', 'javascript', 'c#', 'outras']
+y = [30,20,25,12,13]
 
-plt.pie(valores, labels=frutas, autopct='%1.1f%%')
+plt.title('AS LINGUAGENS MAIS USADAS NO MUNDO', color='blue')
+plt.pie(y, labels=x, autopct="%1.1f%%")
 plt.show()
