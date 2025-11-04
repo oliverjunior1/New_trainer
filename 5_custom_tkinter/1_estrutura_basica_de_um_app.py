@@ -1,20 +1,10 @@
 import customtkinter as ctk
 
-ctk.set_appearance_mode("dark")
-
-ctk.set_default_color_theme('blue')
-
-# Criar a janela principal
-
 app = ctk.CTk()
-app.geometry("400x300")
-app.title("Minha Interface Moderna")
 
-# Adicionar um botão
+x = app.geometry("500x500")
 
-botao = ctk.CTkButton(app, text="Clique aqui")
-botao.pack(pady=20)
-
-# Rodar a aplicação
+label = ctk.CTkLabel(app, text="Jesus is the light of the world!")
+label.pack()
 
 app.mainloop()
