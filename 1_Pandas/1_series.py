@@ -1,8 +1,9 @@
-import matplotlib.pyplot as plt
 import pandas as pd
+import matplotlib.pyplot as plt
 
-x = pd.Series([1,7,2])
+x = pd.DataFrame(range(10))
+y  = pd.DataFrame(range(20))
 
-z = plt.plot(x)
+y = plt.plot(x, y)
 
 plt.show()
